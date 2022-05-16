@@ -2,11 +2,6 @@ from ManejadorCamas import arregloCama
 from ManejadorMedicamentos import Medicamentos
 from ClaseMenu import Menu
 if __name__ == '__main__':
-
-#aclaracion ejercicio 8
-#igual conjuntos, si  las listas tiene la misma longitud, ordenarlos  y luego compara con el while y luego if.
-#union, listas ordenadas y luego 3 for i,j,k para comparar si el numero de la lista 1 es menor a la lista 2 y si es igual
-#colocarle un elif. y de ahi agregardo a la nueva lista.
     arre = arregloCama(3,2)
     arre.ManejadorArchivo()
     arre.mostrarcamas()
